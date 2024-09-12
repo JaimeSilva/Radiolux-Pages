@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Radiolux</title>
+
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="created" content="" />
+
+      <meta property="og:image" content="radiolux.png" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://www.radiolux.pt/" />
+      <meta property="og:title" content="Radiolux" />
+      <meta property="og:description" content="Tecnologia & Materiais Eléctricos" />
+
+      <link rel="icon" href="favicon.png">
+
+
+      <meta name="description" content="Especialista em Materiais Elétricos; Stock permanente de uma vasta coleção de materiais elétricos nacionais e estrangeiros."/>
+
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  </head>
+
+
+  <body>
+
+    <style media="screen">
+
+      body{
+        background-image: linear-gradient(#fffaed, #fffcf5,#f0f0f0,#f0f0f0);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+
+      .img_radiolux{
+        width:100%;
+        margin:auto;
+        display: block;
+        padding-top:35px;
+        padding-bottom:25px;
+      }
+
+
+
+    </style>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="offset-lg-2 col-lg-8">
+            <img src="radiolux.png" alt="Radiolux" class="img_radiolux">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="offset-lg-2 col-lg-8">
+
+          <div style="border:1px solid #b0b0b0; color:white; margin-bottom:20px;">
+            <div style="padding:15px; background-color:#404040;">
+
+              ☎️ 291 22 44 78<br>
+              📧 admin@radiolux.pt <br>
+              📍 Rua do Carmo 24B Funchal Portugal
+
+            </div>
+            <div style="padding:15px; color:#606060;">
+              <h3>Horário</h3>
+              <table>
+                <tr>
+                  <td style="text-align:right; padding-right:15px;">Dias úteis:</td>
+                  <td style="font-weight:bold;">9h - 19h</td>
+                </tr>
+                <tr>
+                  <td style="text-align:right; padding-right:15px;">Sábado:</td>
+                  <td style="font-weight:bold;">9h - 13h</td>
+                </tr>
+              </table>
+
+            </div>
+          </div>
+
+        </div>
+        </div>
+
+    </div>
+
+
+    <div id="footer-text" style="text-align:center; padding-top:100px; font-weight:bold; color:#808080; font-size:8px;">
+      RADIOLUX 
+    </div>
+
+
+
+    <script>
+
+      const currentYear = new Date().getFullYear();
+      
+  
+      const metaTag = document.querySelector('meta[property="og:title"]');
+      const footerText = document.getElementById('footer-text');
+      
+    
+      if (metaTag) metaTag.setAttribute('content', `Radiolux ${currentYear}`);
+      if (footerText) footerText.textContent += ` ${currentYear}`;
+      
+      
+    </script>
+  
+
+  </body>
+</html>
